@@ -1,9 +1,15 @@
-<!-- docs: sync from coderbuzz/codex@cd4a13b -->
+<!-- docs: sync from coderbuzz/codex@46af4b9 -->
 
 # Velox WireClient &mdash; `@coderbuzz/velox-ws-wire-client`
 
 > **Fault-tolerant WebSocket client with binary Wire Protocol.** Auto-reconnect, heartbeat, pub/sub, request-response correlation.
 > AI agents: see [AI_KNOWLEDGE.md](https://github.com/coderbuzz/velox-ws-wire-client/blob/main/AI_KNOWLEDGE.md) for expert context.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@coderbuzz/velox-ws-wire-client"><img src="https://img.shields.io/npm/v/@coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/@coderbuzz/velox-ws-wire-client"><img src="https://img.shields.io/npm/dm/@coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="npm downloads" /></a>
+  <a href="https://github.com/coderbuzz/velox-ws-wire-client/blob/main/LICENSE"><img src="https://img.shields.io/github/license/coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="MIT License" /></a>
+  <a href="https://github.com/coderbuzz/velox-ws-wire-client"><img src="https://img.shields.io/github/stars/coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="GitHub Stars" /></a>
+</p>
 
 WireClient is a standalone WebSocket client using the compact Wire binary framing protocol. It handles reconnection, heartbeats, message correlation, auth, and pub/sub — you just handle messages.
 
