@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@8a99d5c -->
+<!-- docs: sync from coderbuzz/codex@cd4a13b -->
 
 # Velox WireClient &mdash; `@coderbuzz/velox-ws-wire-client`
 
@@ -6,6 +6,10 @@
 > AI agents: see [AI_KNOWLEDGE.md](https://github.com/coderbuzz/velox-ws-wire-client/blob/main/AI_KNOWLEDGE.md) for expert context.
 
 WireClient is a standalone WebSocket client using the compact Wire binary framing protocol. It handles reconnection, heartbeats, message correlation, auth, and pub/sub — you just handle messages.
+
+---
+
+**Compatible with** `@coderbuzz/velox-ws-wire-server` — connect to any Velox-based server using the Wire Protocol, or implement your own server using `@coderbuzz/velox-ws-wire` codec.
 
 ---
 
