@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@e5210d1 -->
+<!-- docs: sync from coderbuzz/codex@e9b6bce -->
 
 # Velox WireClient &mdash; `@coderbuzz/velox-ws-wire-client`
 
@@ -9,8 +9,8 @@
   <a href="https://www.npmjs.com/package/@coderbuzz/velox-ws-wire-client"><img src="https://img.shields.io/npm/dm/@coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="npm downloads" /></a>
   <a href="https://github.com/coderbuzz/velox-ws-wire-client/blob/main/LICENSE"><img src="https://img.shields.io/github/license/coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="MIT License" /></a>
   <a href="https://github.com/coderbuzz/velox-ws-wire-client"><img src="https://img.shields.io/github/stars/coderbuzz/velox-ws-wire-client.svg?style=flat-square" alt="GitHub Stars" /></a>
-  <a href="https://github.com/coderbuzz/codex/actions/workflows/ci.velox-ws-wire-client.yml"><img src="https://github.com/coderbuzz/codex/actions/workflows/ci.velox-ws-wire-client.yml/badge.svg" alt="CI" /></a>
-  <a href="https://codecov.io/gh/coderbuzz/codex"><img src="https://codecov.io/gh/coderbuzz/codex/graph/badge.svg?flag=velox-ws-wire-client" alt="Codecov" /></a>
+  <a href="https://github.com/coderbuzz/velox-ws-wire-client/actions/workflows/ci.yml"><img src="https://github.com/coderbuzz/velox-ws-wire-client/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://codecov.io/gh/coderbuzz/velox-ws-wire-client"><img src="https://codecov.io/gh/coderbuzz/velox-ws-wire-client/graph/badge.svg" alt="Codecov" /></a>
 </p>
 
 WireClient is a standalone WebSocket client using the compact Wire binary framing protocol. It handles reconnection, heartbeats, message correlation, auth, and pub/sub — you just handle messages.
