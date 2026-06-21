@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { WireClientState } from "@coderbuzz/velox-ws-wire-client";
+import { WireClientState } from "../src/index";
 
 test("WireClientState exports values", () => {
   expect(typeof WireClientState).toBe("object");
