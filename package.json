@@ -1,0 +1,12 @@
+{
+  "name": "@coderbuzz/velox-ws-wire-client-ci",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@coderbuzz/velox-ws-wire-client": "latest",
+    "@coderbuzz/velox-ws-wire": "latest"
+  }
+}
